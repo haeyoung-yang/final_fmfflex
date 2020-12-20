@@ -1,0 +1,550 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    background-position: fixed;
+    background-size: 100%;
+
+    transition: all 0.2s ease-in-out;
+} 
+.flex1 {
+    width: 20%;
+    height: 8.7%;
+    position: absolute;
+    top: 16.7%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.year {
+    width: 20%;
+    height: 15%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.festival {
+    width: 20%;
+    height: 7.5%;
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.place {
+    width: 90%;
+    height: 5%;
+    position: absolute;
+    bottom: 1.7%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 4.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.date {
+    width: 20%;
+    height: 7%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.flex2 {
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 2;
+
+    animation-name: flex2;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count:1;
+}
+.flex3 {
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 2;
+
+    animation-name: flex3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.soju-L {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+
+
+    animation-name: soju;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.soju-R {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    animation-name: soju;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.yellow {
+    width: 0%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation-name: yellow;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.yellowbox {
+    width: 0%;
+    height: 16%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #faf82b;
+
+    animation-name: yellowbox;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.music {
+    width: 20%;
+    height: 16.7%;
+    position: absolute;
+    top: 34.3%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    animation-name: festival;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.music-T {
+    width: 20%;
+    height: 8.1%;
+    position: absolute;
+    top: 34.3%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0%;
+
+    animation-name: music1;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+/*.music-T:hover {
+    -webkit-transform: translateY(-96%);
+    -webkit-transition: all 2s ease-out;
+}*/
+.music-B {
+    width: 20%;
+    height: 8.6%;
+    position: absolute;
+    top: 42.4%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0%;
+
+    animation-name: music2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+.pinkbar {
+    width: 20%;
+    height: 0%;
+    position: absolute;
+    top: 43.65%;
+    left: 50%;
+    transform: translate3d(-50%, -56.35%, 0);
+
+    animation-name: pink;
+    animation-duration: 1s;
+    animation-delay: 6.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+/*.music-B:hover {
+    -webkit-transform: translateY(97%);
+    -webkit-transition: all 2s ease-out;
+}*/
+
+
+
+
+@-webkit-keyframes flex2 {
+    0% {
+       
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+@-webkit-keyframes flex3 {
+    0% {
+       
+    }
+    100%{
+        
+        transform: translateX(200%);
+    }
+}
+@-webkit-keyframes soju {
+    0% {
+       height: 100%;
+    }
+    100%{
+        
+        height: 0;;
+    }
+}
+@-webkit-keyframes yellow {
+    0% {
+       width: 0%;
+    }
+    100%{
+        
+        width: 60%;
+    }
+}
+@-webkit-keyframes yellowbox {
+    0% {
+       width: 0%;
+    }
+    100%{   
+        width: 60%;
+    }
+}
+@-webkit-keyframes pink {
+    0% {
+        height: 0%;
+    }
+    100%{
+        
+        height: 16.2%;
+    }
+}
+@-webkit-keyframes run {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes festival {
+    0% {
+       opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+@-webkit-keyframes music1 {
+    0% {
+       opacity: 0%;
+       transform: translateX(-50%);
+    }
+    50% {
+        opacity: 100%;
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translate3d(-50%, -97%,0);
+        opacity: 100%;
+    }
+    100% {
+        transform: translate3d(-50%, -97%,0);
+        opacity: 100%;
+    }
+}
+@-webkit-keyframes music2 {
+    0% {
+       opacity: 0%;
+       transform: translateX(-50%);
+    }
+    50% {
+        opacity: 100%;
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translate3d(-50%, 97%,0);
+        opacity: 100%;
+    }
+    100% {
+        transform: translate3d(-50%, 97%,0);
+        opacity: 100%;
+    }
+}
+@-webkit-keyframes text1 {
+    0% {
+       opacity: 0%;
+       transform: translateX(-65%);
+    }
+    10% {
+        opacity: 100%;
+    }
+    50% {
+        transform: translateX(-35%);
+        opacity: 100%;
+    }
+    90% {
+        opacity: 100%;
+    }
+    100% {
+        transform: translateX(-65%);
+        opacity: 0%;
+    }
+}
+@-webkit-keyframes text2 {
+    0% {
+       opacity: 0%;
+       transform: translateX(-35%);
+    }
+    10% {
+        opacity: 100%;
+    }
+    50% {
+        transform: translateX(-65%);
+        opacity: 100%;
+    }
+    90% {
+        opacity: 100%;
+    }
+    100% {
+        transform: translateX(-35%);
+        opacity: 0%;
+    }
+}
+.menu {
+    width: 20%;
+    height: 16%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.run-button {
+    font-size: 50pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    position: absolute;
+
+    animation-name: run;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.play {
+    width: 30px;
+    height: 50px;
+    right: 18%;
+    opacity: 0%;
+    bottom: 30%;
+    position: absolute;
+    z-index: 3; 
+}
+.stop {
+    width: 30px;
+    height: 50px;
+    right: 15%;
+    opacity: 0%;
+    bottom: 30%;
+    position: absolute;
+    z-index: 3; 
+}
+.back {
+    width: 30px;
+    height: 50px;
+    right: 12%;
+    opacity: 0%;
+    bottom: 30%;
+    position: absolute;
+    z-index: 3; 
+}
+.name {
+    width: 0%;
+    height: 6%;
+    position: absolute;
+    top: 35.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    z-index: 0;
+}
+.text1.move {
+    width: 70%;
+    height: 6%;
+    top: 35.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+
+    animation-name: text1;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.name2 {
+    width: 0%;
+    height: 6%;
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    z-index: 0;
+}
+.text2.move {
+    width: 70%;
+    height: 6%;
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+
+    animation-name: text2;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.phover {
+    right: 18.5%;
+    bottom: 43%;
+    opacity: 0%;
+    font-size: 10pt;
+    position: absolute;
+}
+.shover {
+    right: 15%;
+    bottom: 43%;
+    opacity: 0%;
+    font-size: 10pt;
+    position: absolute;
+}
+.bhover {
+    right: 12.3%;
+    bottom: 43%;
+    opacity: 0%;
+    font-size: 10pt;
+    position: absolute;
+}
+
+#thefile {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    z-index: 100;
+    opacity: 0;
+  }
+  
+#canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 74%;
+    width: 60%;
+    height: 16%;
+  }
+  
+#audio {
+    position: absolute;
+    left: 20%;
+    top: 11%;
+    width: 20%;
+    opacity: 0;
+  }
+ 
